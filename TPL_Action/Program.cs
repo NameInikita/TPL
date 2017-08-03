@@ -14,7 +14,7 @@ namespace TPL_Action
 
             Console.Write("MyTask запущен в потоке {0}, CurrentId {1}", threadID,Task.CurrentId);
 
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < 4; i++)
             {
                 for (int j = 0; j < i; j++)
                 {
