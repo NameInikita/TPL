@@ -40,8 +40,8 @@ namespace TPL_Action
             taskAction.RunSynchronously();    //Запуск задачи на выполнение синхронно.
             taskAction.Wait();                // Ожидание завершения асинхронной задачи.
             Task taskAction2 = new Task(action);//для проверки  CurrentId
-            taskAction2.Start();
-            //taskAction2.RunSynchronously();
+            //taskAction2.Start();
+            taskAction2.RunSynchronously();
 
 
 
